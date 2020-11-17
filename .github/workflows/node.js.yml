@@ -28,4 +28,4 @@ jobs:
     - run: npm test
     - run: npm run build
     - name: dockerTest
-      run: docker build -t nathton026/nginx:latest
+      run: docker build -t nathton026/nginx:latest .
